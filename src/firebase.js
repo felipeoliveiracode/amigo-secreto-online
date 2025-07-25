@@ -1,14 +1,13 @@
-// src/firebase.js (seguro para GitHub)
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || process.env.REACT_APP_FIREBASE_API_KEY,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || process.env.REACT_APP_FIREBASE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID || process.env.REACT_APP_FIREBASE_APP_ID
+    apiKey: "AIzaSyAcTTGY_PzuT8geKugdoMkHxgwOaCBpQgY",
+    authDomain: "amigo-secreto-2d419.firebaseapp.com",
+    projectId: "amigo-secreto-2d419",
+    storageBucket: "amigo-secreto-2d419.firebasestorage.app",
+    messagingSenderId: "929837860264",
+    appId: "1:929837860264:web:2b3b4ead5cb8746725c99d"
 };
 
 const app = initializeApp(firebaseConfig);
