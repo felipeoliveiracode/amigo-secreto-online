@@ -1,4 +1,4 @@
-// src/firebase.js
+// src/firebase.js (seguro para GitHub)
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
@@ -10,7 +10,6 @@ const firebaseConfig = {
   messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
   appId: import.meta.env.VITE_FIREBASE_APP_ID || process.env.REACT_APP_FIREBASE_APP_ID
 };
-
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
